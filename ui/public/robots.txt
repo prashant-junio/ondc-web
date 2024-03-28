@@ -1,0 +1,12 @@
+User-Agent: *
+Disallow: /private/
+Allow: /public/
+
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+Sitemap: https://junio.in/vouchers/sitemap.xml

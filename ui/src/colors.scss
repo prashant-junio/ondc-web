@@ -1,0 +1,164 @@
+:root {
+  --PRIMARY: #8a27f7;
+  --PRIMARY_900: #3a1068;
+  --PRIMARY_700: #7521d1;
+  --PRIMARY_200: #c99cfb;
+  --PRIMARY_50: #f3e9fe;
+
+  --PRIMARY_700_FIXED: #7521d1;
+  --PRIMARY_FIXED: #8a27f7;
+
+  --BLACK: #333333;
+  --BLACK_300: #999999;
+  --BLACK_50: #ebebeb;
+  --FIXED_BLACK: #333333;
+
+  --WHITE: #ffffff;
+  --WHITE_BG: #faf5ff;
+  --FIXED_WHITE: #ffffff;
+  --BRAND_PRIMARY: #8a27f7;
+  --BRAND_PRIMARY_200: #c99cfb;
+
+  --CAUTION_200: #ffe3aa;
+  --CAUTION_500: #ffc247;
+  --CAUTION_50: #FFF9ED;
+
+  --WARNING: #fe3152;
+  --WARNING_50: #ffeaee;
+
+  --SUCCESS: #05ce91;
+  --SUCCESS_50: #e6faf4;
+
+  --PLACEHOLDER_TEXT: #999999;
+
+  --FILTER_FIXED_WHITE: invert(100%) sepia(0%) saturate(7500%) hue-rotate(357deg) brightness(101%) contrast(104%);
+
+  --FILTER_SUCCESS: invert(62%) sepia(92%) saturate(1710%) hue-rotate(114deg)
+    brightness(93%) contrast(96%);
+
+  --FILTER_PRIMARY_700: invert(16%) sepia(78%) saturate(4490%) hue-rotate(267deg) brightness(87%) contrast(98%);
+  
+  --FILTER_FIXED_BLACK: invert(0%) sepia(95%) saturate(20%) hue-rotate(39deg) brightness(93%) contrast(107%);
+}
+
+.BG_PRIMARY {
+  background-color: var(--PRIMARY) !important;
+}
+
+.BG_WARNING {
+  background-color: var(--WARNING) !important;
+}
+
+.BG_WHITE_BG {
+  background-color: var(--WHITE_BG) !important;
+}
+
+.BG_PRIMARY_50 {
+  background-color: var(--PRIMARY_50) !important;
+}
+
+.BG_PRIMARY_200 {
+  background-color: var(--PRIMARY_200) !important;
+}
+
+.BG_WHITE {
+  background-color: var(--WHITE) !important;
+}
+
+.BG_SUCCESS {
+  background-color: var(--SUCCESS) !important;
+}
+
+.BG_SUCCESS_50 {
+  background-color: var(--SUCCESS_50) !important;
+}
+
+.BG_CAUTION_500 {
+  background-color: var(--CAUTION_500);
+}
+
+.BG_BLACK_300 {
+    background-color: var(--BLACK_300);
+}
+
+.BG_BLACK_50 {
+    background-color: var(--BLACK_50);
+}
+
+.BG_WARNING_50 {
+  background-color: var(--WARNING_50);
+}
+
+.BG_CAUTION_500 {
+  background-color: var(--CAUTION_500);
+}
+
+.BG_CAUTION_200 {
+  background-color: var(--CAUTION_200);
+}
+
+.BG_CAUTION_50 {
+  background-color: var(--CAUTION_50);
+}
+
+
+.TEXT_WHITE {
+  color: var(--WHITE) !important;
+}
+
+.TEXT_PRIMARY_700 {
+  color: var(--PRIMARY_700) !important;
+}
+
+.TEXT_FIXED_WHITE {
+  color: var(--FIXED_WHITE) !important;
+}
+
+.TEXT_FIXED_BLACK {
+  color: var(--FIXED_BLACK);
+}
+
+.TEXT_BLACK {
+  color: var(--BLACK) !important;
+}
+
+.TEXT_BLACK_300 {
+  color: var(--BLACK_300) !important;
+}
+
+.TEXT_SUCCESS {
+  color: var(--SUCCESS) !important;
+}
+
+.TEXT_WARNING {
+  color: var(--WARNING);
+}
+
+.TEXT_PRIMARY {
+  color: var(--PRIMARY);
+}
+
+.TEXT_PRIMARY_200 {
+  color: var(--PRIMARY_200);
+}
+
+.TEXT_CAUTION_500 {
+  color: var(--CAUTION_500);
+}
+
+.FILTER_SUCCESS {
+  filter: var(--FILTER_SUCCESS) !important;
+}
+
+.FILTER_FIXED_BLACK {
+  filter: brightness(0) saturate(100%) !important;
+}
+
+.FILTER_FIXED_WHITE {
+  filter: var(--FILTER_FIXED_WHITE) !important;
+}
+
+.FILTER_PRIMARY_700 {
+  filter: var(--FILTER_PRIMARY_700) !important;
+}
+

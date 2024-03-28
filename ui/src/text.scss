@@ -1,0 +1,173 @@
+/* Font Sizes */
+.font_4 {
+  font-size: 0.25rem;
+}
+
+.font_8 {
+  font-size: 0.5rem;
+}
+
+.font_12 {
+  font-size: 0.75rem;
+}
+
+.font_14 {
+  font-size: 0.875rem !important;
+}
+
+.font_16 {
+  font-size: 1rem !important;
+}
+
+.font_18 {
+  font-size: 1.125rem;
+}
+
+.font_20 {
+  font-size: 1.25rem;
+}
+
+.font_24 {
+  font-size: 1.5rem;
+}
+
+.font_28 {
+  font-size: 1.75rem;
+}
+
+.font_32 {
+  font-size: 2rem;
+}
+
+.font_l_bold {
+  @extend .font_18;
+  font-weight: 700;
+}
+
+.font_l_extraBold {
+  @extend .font_18;
+  font-weight: 800;
+}
+
+.font_l_light {
+  @extend .font_18;
+  font-weight: 400;
+}
+
+.font_m_light {
+  @extend .font_16;
+  font-weight: 400;
+}
+
+.font_s_medium {
+  @extend .font_14;
+  font-weight: 500;
+}
+
+.font_s_light {
+  @extend .font_14;
+  font-weight: 400;
+}
+
+.font_l_extralight {
+  @extend .font_14;
+  font-weight: 200;
+}
+
+.font_s_bold {
+  @extend .font_14;
+  font-weight: 700;
+}
+
+.font_xs_bold {
+  @extend .font_12;
+  font-weight: 700;
+}
+
+.font_m_bold {
+  @extend .font_16;
+  font-weight: 700;
+}
+
+.font_xl_bold {
+  @extend .font_24;
+  font-weight: 700;
+}
+
+.font_sl_bold {
+  @extend .font_20;
+  font-weight: 700;
+}
+
+.font_sl_extraBold {
+  @extend .font_20;
+  font-weight: 800;
+}
+
+.font_xl_semiBold {
+  @extend .font_24;
+  font-weight: 600;
+}
+
+.font_xs_semiBold {
+  @extend .font_12;
+  font-weight: 600;
+}
+
+.font_s_semiBold {
+  @extend .font_14;
+  font-weight: 600 !important;
+}
+
+.font_xs_light {
+  @extend .font_12;
+  font-weight: 400;
+}
+
+.font_m_semiBold {
+  @extend .font_16;
+  font-weight: 600 !important;
+}
+
+.font_m_medium {
+  @extend .font_16;
+  font-weight: 500 !important;
+}
+
+.font_m_extraBold {
+  @extend .font_16;
+  font-weight: 800;
+}
+
+.font_sl_extraBold {
+  @extend .font_20;
+  font-weight: 800;
+}
+
+.font_l_semiBold {
+  @extend .font_18;
+  font-weight: 600;
+}
+
+.font_sl_semiBold {
+  @extend .font_20;
+  font-weight: 600;
+}
+
+.font_xl_extraBold {
+  @extend .font_24;
+  font-weight: 800;
+}
+
+.font_xs_semiBold {
+  @extend .font_12;
+  font-weight: 600;
+}
+
+// $font-xl: 24px;
+// $font-l: 18px;
+// $font-sl: 20px;
+// $font-m: 16px;
+// $font-s: 14px;
+// $font-xs: 12px;
+// $font-xxs: 10px;
