@@ -12,7 +12,9 @@
     "staging:serve": "NODE_ENV=staging nodemon server",
     "build": "npm run build:client && npm run build:server",
     "build:client": "vite build --outDir dist/client",
-    "build:server": "vite build --ssr src/ssr.jsx --outDir dist/server"
+    "build:server": "vite build --ssr src/ssr.jsx --outDir dist/server",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "dependencies": {
     "@fastify/csrf": "6.3.0",
@@ -46,6 +48,15 @@
     "zustand": "4.4.1"
   },
   "devDependencies": {
+    "@chromatic-com/storybook": "^1.2.25",
+    "@storybook/addon-essentials": "^8.0.5",
+    "@storybook/addon-interactions": "^8.0.5",
+    "@storybook/addon-links": "^8.0.5",
+    "@storybook/addon-onboarding": "^8.0.5",
+    "@storybook/blocks": "^8.0.5",
+    "@storybook/react": "^8.0.5",
+    "@storybook/react-vite": "^8.0.5",
+    "@storybook/test": "^8.0.5",
     "@types/react": "^18.2.15",
     "@types/react-dom": "^18.2.7",
     "@vitejs/plugin-react": "^4.0.3",
@@ -57,6 +68,7 @@
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
+    "eslint-plugin-storybook": "^0.8.0",
     "express": "^4.18.2",
     "express-http-proxy": "^2.0.0",
     "framer-motion": "10.16.5",
@@ -64,9 +76,16 @@
     "morgan": "^1.10.0",
     "pg": "8.11.3",
     "postcss": "8.4.29",
+    "prop-types": "^15.8.1",
     "sass": "1.67.0",
     "serve-static": "1.15.0",
+    "storybook": "^8.0.5",
     "vite": "4.4.9",
     "winston": "^3.10.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "plugin:storybook/recommended"
+    ]
   }
 }

@@ -1,0 +1,30 @@
+.category-container {
+  border: 1px solid black;
+  width: 100%;
+  max-width: 300px;
+}
+
+.category-list-header {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.category-item {
+  border: 1px solid black;
+  height: 80px;
+  width: 80px;
+  padding: 8px 0px;
+  margin-right: 12px;
+}
+
+.category-img {
+  border: 1px solid black;
+  height: 30px;
+  width: 30px;
+}
+
+.category-item-label {
+  font-size: 12px;
+  text-align: center;
+}
