@@ -1,0 +1,23 @@
+.input-field {
+  border: none;
+  outline: none;
+}
+.input-field-mobile-container {
+  border: 1px solid black;
+  padding: 8px;
+  border-radius: 16px;
+}
+
+.country-code-seprator {
+  height: 30px;
+  width: 2px;
+  background-color: black;
+  margin-right: 12px;
+  margin-left: 12px;
+}
+
+.input-label {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}

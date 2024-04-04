@@ -15,6 +15,5 @@ export default {
 };
 
 export const OutletCardComponent = {
-  args: {
-  },
+  args: {},
 };
