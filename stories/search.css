@@ -1,0 +1,73 @@
+.search-container {
+  border: 1px solid black;
+  height: 100;
+  width: 450px;
+  padding: 24px;
+}
+
+.search-input {
+  width: 100%;
+  border: none;
+  outline: none;
+}
+
+.outlet-list-card-img-container {
+  border: 1px solid black;
+  height: 100px;
+  width: 100px;
+}
+
+.search-input-container {
+  border: 1px solid black;
+}
+
+.search-back-icon {
+  width: 30px;
+  height: 30px;
+  border: 1px solid black;
+}
+
+.search-cross-icon {
+  width: 30px;
+  height: 30px;
+  border: 1px solid black;
+}
+
+.search-item-container {
+  border: 1px solid black;
+}
+
+.search-item-header {
+  padding: 8px;
+}
+
+.search-item-header-img {
+  height: 40px;
+  width: 40px;
+  border: 1px solid black;
+}
+
+.search-item-header-label p {
+  font-size: 14px;
+  margin-left: 12px;
+}
+
+.search-item-product-img {
+  border: 1px solid black;
+  height: 100px;
+  width: 100px;
+}
+
+.search-item-info-section {
+  border: 1px solid black;
+  padding: 12px;
+}
+
+
+.search-type-container {
+  border-bottom: 1px solid black;
+  margin-top: 30px;
+  width: 100%;
+  padding: 0px 32px;
+  margin-bottom: 24px;
+}
