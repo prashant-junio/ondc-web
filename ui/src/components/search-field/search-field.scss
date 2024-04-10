@@ -1,0 +1,24 @@
+.search-field-container {
+  border: 1px solid var(--BLACK_50);
+}
+
+.search-field-input {
+  border: none;
+  outline: none;
+}
+
+input::-webkit-input-placeholder {
+  color: var(--BLACK_50);
+}
+input:-moz-placeholder {
+  color: var(--BLACK_50);
+}
+input::-moz-placeholder {
+  color: var(--BLACK_50);
+}
+input:-ms-input-placeholder {
+  color: var(--BLACK_50);
+}
+input::-ms-input-placeholder {
+  color: var(--BLACK_50);
+}

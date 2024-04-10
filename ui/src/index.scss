@@ -43,7 +43,6 @@ body {
   margin-bottom: 47px !important;
 }
 
-
 @media only screen and (max-width: 500px) {
   .chevron_rotate_active {
     -webkit-transform: rotate(360deg);
@@ -52,7 +51,7 @@ body {
     -o-transform: rotate(360deg);
     transform: rotate(360deg);
     transition: all 0.3s;
-  } 
+  }
 }
 
 @media only screen and (max-width: 992px) {
@@ -631,6 +630,26 @@ p {
   margin: 1.5rem;
 }
 
+.margin_top_28 {
+  margin-top: 1.75rem;
+}
+
+.margin_right_28 {
+  margin-right: 1.75rem;
+}
+
+.margin_bottom_28 {
+  margin-bottom: 1.75rem;
+}
+
+.margin_left_28 {
+  margin-left: 1.75rem;
+}
+
+.margin_28 {
+  margin: 1.75rem;
+}
+
 .margin_top_40 {
   margin-top: 2.5rem;
 }
@@ -655,6 +674,14 @@ p {
   margin: 2rem;
 }
 
+.margin_bottom_57 {
+  margin-bottom: 3.5rem;
+}
+
+.margin_bottom_40 {
+  margin-bottom: 2.5rem;
+}
+
 .small-list {
   padding-left: 1rem;
 }
@@ -673,4 +700,21 @@ p {
   font-size: 1.125rem;
   font-weight: 200;
   line-height: 1.675rem;
+}
+
+.hide-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+
+  &::-webkit-scrollbar {
+    width: 1px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: transparent;
+  }
 }

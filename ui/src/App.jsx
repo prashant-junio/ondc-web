@@ -20,7 +20,6 @@ const routes = [
     path: "/vouchers/",
     Component: () => (
       <>
-        <div>Navbar</div>
         <Outlet />
       </>
     ),
